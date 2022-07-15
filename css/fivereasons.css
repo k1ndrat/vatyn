@@ -1,0 +1,115 @@
+:root {
+  --gutter: 15px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: "OpinionPro", Arial, sans-serif;
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+ul,
+ol,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(250, 246, 243);
+}
+
+.content {
+  margin: 150px 0;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+.inner_content {
+  margin: auto;
+  display: flex;
+  line-height: 50px;
+  text-align: justify;
+  flex-wrap: wrap;
+  width: 900px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.why_img img {
+  height: 130px;
+}
+
+.why_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first_ {
+  font-weight: 700;
+}
+
+.parag {
+  margin: 0 auto;
+  position: relative;
+  padding: 20px 10px;
+}
+
+.number p {
+  margin: auto;
+}
+
+.row-1 {
+  display: flex;
+  width: calc(8.33% - var(--gutter));
+}
+
+.row-4 {
+  width: calc(33.33% - var(--gutter));
+}
+
+.row-8 {
+  width: calc(66.66% - var(--gutter));
+}
+
+.row-11 {
+  width: calc(91.66% - var(--gutter));
+}
+
+.row-12 {
+  width: calc(100% - var(--gutter));
+}
+
+.number {
+  border-radius: 50%;
+  background-color: black;
+  color: rgb(247, 230, 215);
+  height: 50px;
+  width: 50px;
+  margin: 30px 0 0 auto;
+}
+
+.describe,
+.title,
+.end {
+  padding-left: 0px;
+}
